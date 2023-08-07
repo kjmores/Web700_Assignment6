@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WEB700</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/theme.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <main class="col-md-12">
+        <br><br>
+
+        <h2>Add Course</h2>
+        <form action="/courses/add" method="post">
+          <div class="form-group">
+            <label for="courseCode">Course Code</label>
+            <input type="text" class="form-control" id="courseCode" name="courseCode" required>
+          </div>
+          <div class="form-group">
+            <label for="courseDescription">Course Description</label>
+            <input type="text" class="form-control" id="courseDescription" name="courseDescription" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Add Course</button>
+        </form>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
